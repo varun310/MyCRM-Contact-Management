@@ -2,6 +2,11 @@
 
 This application is configured to run on IBM CLoud. If you want to test and run this application on local system, Please follow the below steps.
 
+## Access to Firestore Database
+
+Google Firestore provides Service Account Key when Database is created. You will have to add the JSON filename given by Firestore to: `var serviceAccount = require("./mycrm-d955f.json");`\
+If you want to use my Firestore database Please send a request.
+
 ## Run the app locally
 
 1. [Install Node.js][]
