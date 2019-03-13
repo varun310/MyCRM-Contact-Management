@@ -1,0 +1,17 @@
+{
+  "ServiceId": "com.ibm.cloudoe.orion.client.deploy",
+  "Params": {
+    "Target": {
+      "Url": "https://api.eu-gb.bluemix.net",
+      "Org": "iotarduino2018@gmail.com",
+      "Space": "dev"
+    },
+    "Name": "mycrm-demo",
+    "Instrumentation": {
+      "domain": "eu-gb.mybluemix.net",
+      "instances": "1"
+    }
+  },
+  "Path": "manifest.yml",
+  "Type": "Cloud Foundry"
+}
